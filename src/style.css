@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:300,regular,600,700,800);
+html {
+  font-family: Khula;
+}
+._container {
+  padding: 0 10px;
+  max-width: 943px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.home {
+  padding: 40px 0 104px 0;
+}
+.home__content {
+  position: relative;
+}
+.home__menu {
+  position: absolute;
+  right: 8%;
+  top: 0;
+  cursor: pointer;
+}
+
+.home__title {
+  margin: 0 0 31px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__name {
+  max-width: 130px;
+  font-weight: bold;
+  font-size: 47px;
+  line-height: 1.25531914893617
+}
+.home__prof {
+  max-width: 154px;
+  font-size: 18px;
+  font-weight:500;
+  line-height: 1.222222222222222; 
+}
+.home__langToggle {
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.25;
+  
+}
+.home__langToggleWrapper {
+  /* transform: rotate(-90deg);
+  transform-origin: center; */
+}
+.home__langRu {
+  color: #828282;
+  cursor: pointer;
+}
+.home__langRu_active {
+  color: black;
+}
+.home__langEng {
+  color: #828282;
+  cursor: pointer;
+}
+.home__langEng_active {
+  color: black;
+}
+
+.home__image {
+  display: block;
+  width: 100%;
+  max-height: 387px;
+  object-fit: cover;
+}
+@media (max-width: 500px) {
+  .home__langToggle {
+    display: none;
+  }
+  .home__title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .home__name {
+    margin: 0 0 23px 0;
+  }
+  .home__image {
+    max-height: 478px;
+  }
+}
+
+@media (min-width: 501px) {
+  .home__menu {
+    display: none;
+  }
+  .mobileMenu {
+    display: none;
+  }
+}
+
+
+/* MobileMenu */
+@media (max-width: 501px) {
+  .mobileMenu {
+    display: flex;
+    padding: 60px 25px;
+    min-height: 812px;
+    position: absolute;
+    right: -100%;
+    z-index: 10;
+    background-color: white;
+    transition: ease 0.5s all;
+  }
+  .mobileMenu_active {
+    
+    right: 0;
+    
+  }
+  .mobileMenuList {
+    margin: 0 50px 0 0;
+  }
+  .mobileMenu__item {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.235294117647059;
+  }
+  .mobileMenu__item:not(:last-child) {
+    margin: 0 0 68px 0;
+  }
+  .mobileMenuSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .mobileMenu__langToggle {
+    font-size: 34px;
+    line-height: 1.235294117647059;
+    writing-mode: vertical-lr;
+    
+  }
+  .mobileMenu__close {
+    width: 23px;
+    cursor: pointer;
+  }
+}
