@@ -1,0 +1,43 @@
+/* MobileMenu */
+@media (max-width: 501px) {
+  .mobileMenu {
+    display: flex;
+    padding: 60px 25px;
+    min-height: 812px;
+    position: absolute;
+    right: -100%;
+    z-index: 10;
+    background-color: white;
+    transition: ease 0.5s all;
+  }
+  .mobileMenu_active {
+    right: 0;
+  }
+  .mobileMenuList {
+    margin: 0 50px 0 0;
+  }
+  .mobileMenu__item {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.235294117647059;
+  }
+  .mobileMenu__item:not(:last-child) {
+    margin: 0 0 68px 0;
+  }
+  .mobileMenuSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .mobileMenu__langToggle {
+    font-size: 34px;
+    line-height: 1.235294117647059;
+    writing-mode: vertical-lr;
+    
+  }
+  .mobileMenu__close {
+    width: 23px;
+    cursor: pointer;
+  }
+}
