@@ -1,0 +1,17 @@
+.portfolio__sample:not(:last-child) {
+  margin: 0 0 99px 0;
+}
+.portfolio__samleImg {
+  margin: 0 0 45px 0;
+  width: 100%;
+}
+.portfolio__samleDiscr {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.222222222222222;
+  text-decoration-line: underline;
+  color: #070707;
+  cursor: pointer;
+}
