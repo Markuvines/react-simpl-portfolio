@@ -1,0 +1,20 @@
+.aboutMe {
+  padding: 120px 0 107px 0;
+  background: #F6F6F6;
+}
+
+.aboutMe__title {
+  margin: 0 0 18px 0;
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1.235294117647059;
+  color: #070707;
+}
+
+.aboutMe__discription {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.222222222222222;
+  color: #070707;
+}
