@@ -6,6 +6,7 @@ import MobileMenu from './components/MobileMenu/MobileMenu';
 import Home from './components/Home/Home';
 import AboutMe from './components/AboutMe/AboutMe';
 import Skills from './components/Skills/Skills';
+import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
   const [lang, setLang] = useState('eng')
@@ -18,6 +19,7 @@ function App() {
         <Home mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} lang={lang} setLang={setLang}/>
         <AboutMe lang={lang}/>
         <Skills lang={lang}/>
+        <Portfolio lang={lang}/>
       </main>
     </div>
   );
