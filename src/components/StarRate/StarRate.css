@@ -1,0 +1,5 @@
+.skills__starRate {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
