@@ -15,3 +15,8 @@
 .skills__itemTitle {
   margin: 0 0 40px 0;
 }
+@media(max-width: 750px) {
+  .skills__item:not(:last-child) {
+    margin: 0 0 30px 0;
+  }
+}

@@ -23,3 +23,9 @@
   line-height: 1.222222222222222;
   color: #070707;
 }
+@media(max-width: 750px) {
+  .skills__list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
