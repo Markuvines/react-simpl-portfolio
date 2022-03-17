@@ -16,10 +16,14 @@
   .mobileMenuList {
     margin: 0 50px 0 0;
   }
-  .mobileMenu__item {
+  .mobileMenu__item a{
     font-size: 34px;
     font-weight: bold;
     line-height: 1.235294117647059;
+    color: #828282;
+  }
+  .mobileMenu__item_active {
+    
   }
   .mobileMenu__item:not(:last-child) {
     margin: 0 0 68px 0;

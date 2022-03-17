@@ -9,20 +9,20 @@ const MobileMenu = ({mobileMenu, setMobileMenu, lang, setLang}) => {
       {(() => {switch (lang) {
         case 'eng': return (
           <>
-            <li className='mobileMenu__item'>Home</li>
-            <li className='mobileMenu__item'>Skills</li>
-            <li className='mobileMenu__item'>About me</li>
-            <li className='mobileMenu__item'>Portfolio</li>
-            <li className='mobileMenu__item'>Contacts</li>
+            <li className='mobileMenu__item'><a href="#home">Home</a></li>
+            <li className='mobileMenu__item'><a href="#aboutMe">About me</a></li>
+            <li className='mobileMenu__item'><a href='#skills'>Skills</a></li>
+            <li className='mobileMenu__item'><a href='#portfolio'>Portfolio</a></li>
+            <li className='mobileMenu__item'><a href='#contacts'>Contacts</a></li>
           </>
         );
         case 'ru': return(
           <>
-            <li className='mobileMenu__item'>Главная</li>
-            <li className='mobileMenu__item'>Навыки</li>
-            <li className='mobileMenu__item'>Обо мне</li>
-            <li className='mobileMenu__item'>Портфолио</li>
-            <li className='mobileMenu__item'>Контакты</li>
+            <li className='mobileMenu__item'><a href="#home">Главная</a></li>
+            <li className='mobileMenu__item'><a href="#aboutMe">Навыки</a></li>
+            <li className='mobileMenu__item'><a href='#skills'>Обо мне</a></li>
+            <li className='mobileMenu__item'><a href='#portfolio'>Портфолио</a></li>
+            <li className='mobileMenu__item'><a href='#contacts'>Контакты</a></li>
           </>
         )
          
