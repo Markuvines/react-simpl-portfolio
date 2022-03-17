@@ -3,7 +3,9 @@ import './AboutMe.css'
 
 const AboutMe = ({lang}) => {
   return (
+    <>
     <div className='aboutMe'>
+      <a className='aboutMeAnchor' name='aboutMe'></a>
       <div className='aboutMe__content _container'>
       {(() => {
         switch (lang) {
@@ -45,6 +47,7 @@ const AboutMe = ({lang}) => {
       })()}
       </div>
     </div>
+    </>
   );
 };
 

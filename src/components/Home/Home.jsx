@@ -7,7 +7,7 @@ const Home = ({mobileMenu, setMobileMenu, lang, setLang}) => {
   return (
     <div className='home'>
       <div className='home__content _container'>
-      {(() => {
+        {(() => {
         switch (lang) {
           case 'ru': 
             return(
@@ -30,7 +30,7 @@ const Home = ({mobileMenu, setMobileMenu, lang, setLang}) => {
         </div>
             )
         }
-      })()}
+        })()}
         <img className='home__menu' src={menu} alt="menu" onClick={() => {setMobileMenu(!mobileMenu)}}/>
         <img className='home__image' src={mySelf} alt="mySelf"/>
       </div>
