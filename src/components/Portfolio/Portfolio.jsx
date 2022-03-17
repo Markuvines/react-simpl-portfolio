@@ -17,6 +17,7 @@ const Portfolio = ({lang}) => {
   }}
   return (
     <div className='portfolio'>
+    <a className='portfolioAnchor' name='portfolio'></a>
       <div className='portfolio__content _container'>
         {langSwitch(lang)}
         {portfolioSamples.map((item, index) => <PortfolioSample portfolioSamp={item} key={index}/>)}
