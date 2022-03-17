@@ -1,20 +1,27 @@
-
-  @media (max-width: 500px) {
-    .header {
-      display: none;
-    }
-  }
-
+.header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+}
 .header__list {
   padding: 33px 0;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #828282;;
 }
-.header__item {
+.header__item a {
   font-size: 18px;
   font-weight: bold;
   line-height: 22px;
   color: #828282;
-  cursor: pointer;
+}
+.header__item_active a {
+  color: #070707;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  .header {
+    display: none;
+  }
 }
