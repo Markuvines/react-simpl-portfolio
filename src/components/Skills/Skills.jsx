@@ -15,6 +15,7 @@ const Skills = ({lang}) => {
   ])
   return (
     <div className='skills'>
+    <a className='skillsAnchor' name='skills'></a>
       <div className='skills__content _container'>
       {(() => {
         switch(lang) {
