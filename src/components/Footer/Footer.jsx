@@ -42,6 +42,7 @@ const Footer = ({lang}) => {
 }
   return (
     <div className='footer'>
+    <a name='contacts'></a>
       {langSwitch()}
     </div>
   );
