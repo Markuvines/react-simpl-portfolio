@@ -14,6 +14,7 @@ function App() {
   const [mobileMenu, setMobileMenu] = useState(false);
   return (
     <div className='wrapper'>
+      <a name='home'></a>
       <MobileMenu mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} lang={lang} setLang={setLang}/>
       <Header lang ={lang}/>
       <main>

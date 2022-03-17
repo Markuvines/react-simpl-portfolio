@@ -9,6 +9,23 @@ html {
 }
 
 .wrapper {
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
+}
+.aboutMeAnchor {
+  position: absolute;
+  top: -19%;
+}
+.skillsAnchor {
+  position: absolute;
+  top: -14%;
+}
+.portfolioAnchor {
+  position: absolute;
+  top: -4%;
+}
+@media (max-width: 500px) {
+  .wrapper {
+    overflow: hidden;
+  }
 }
